@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 90px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 130%;
+}
+
+nav ul li a:hover{
+    color: #62d4fd;
+    font-size: 135%;
+}
+
+.row{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+.card img{
+    height: 500px;
+    width: 650;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 90px;
+    top: 50px;
+}
+
+.info{
+    position: relative;
+    width: 700px;
+    height:auto;
+    color: #ffffff;
+    background-color: rgba(119, 119, 119, 0.31);
+    border: 10px;
+    border-radius: 1px;
+    border-color: gray;
+}
+
+h5{
+    color: white;
+    text-shadow: 0 0 5px #000000;
+    margin: 20px;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+p{
+    color: rgba(209, 209, 209, 0.9);
+    font-size: 100%;
+    line-height: 20px;
+    margin: 20px;
+    margin-top: 0;
+    height: ;
+    width: ;
+/*    white-space: pre-line;*/
+/*    overflow: scroll;*/
+}
